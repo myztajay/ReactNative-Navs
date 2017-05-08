@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { View, Text } from 'react-native'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
+import { Firebase } from './Firebase'
 import reducers from './reducers'
 
 class App extends Component {
